@@ -1,0 +1,175 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+  position: fixed;
+  background-image: url(pic/frost.jpg); 
+  background-size: cover;
+  display: flex;
+}
+.cname{
+  position:fixed;
+  left: 5%;
+  top: 2%;
+ 
+}
+img{
+  display: flex;
+  width: 8%;
+  border-radius: 30%;
+  background: transparent;
+  transition: 0.10s ease;
+  
+}
+
+.menu{
+  position: relative;
+  width:200%;
+  left: 135%;
+  float:left;
+  height: 70px;
+
+}
+ul{
+  float: left;
+  justify-content:left;
+  align-items:normal;
+  display: flex;
+
+}
+ul li{
+  
+  list-style: none;
+  margin-left:70px;
+  margin-top: 27px;
+}
+ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.3s  ease;
+
+}
+ul li a:hover{
+  color: rgb(255, 34, 0);
+  }
+  .content{
+    position: fixed;
+    top:60%;
+    left: 5%;
+    color: rgb(9, 255, 148);
+  }
+  h1{
+    color: rgb(0, 247, 255);
+    }
+    p{
+      color: rgb(230, 207, 223);
+    }
+    .form{
+      position: fixed;
+      width: 250px;
+      height: 380px;
+      background: linear-gradient(to top,rgba(222, 129, 101, 0.504)50%,rgba(222, 129, 101, 0.504)50%);
+      top:25%;
+      left: 70%;
+      border-radius:30px;
+      padding: 35px;
+      box-shadow: 1px 10px 15px 10px rgb(255, 94, 0);
+    }
+    h2{
+      position: relative;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      color: rgba(10, 8, 8, 0.807);
+      left: 20%;
+    
+    }
+    .login h2{
+      left: 20%;
+    }
+    .form input{
+      width: 240px;
+      height: 25px;
+      background: transparent;
+      border-bottom: 1px solid rgba(0, 157, 255, 0.736);
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      color: rgb(17, 33, 22);
+      font-size: 13px;
+      letter-spacing: 1px;
+      margin-top: 30px;
+      font-family: sans-serif;
+    }
+    .btn{
+      position:relative;
+      width: 140px;
+      height: 30px;
+     background-color: rgba(255, 181, 161, 0.792);
+      border-radius: 10px;
+      font-size:20px;
+      margin-top: 30px;
+      left: 20%;
+      cursor:pointer;
+      transition: 0.3s ease;
+     
+    }
+    .btn a{
+      position:relative;
+      color: rgb(227, 12, 84);
+      text-decoration: none;
+      font-weight: bold;
+      
+    }
+     button a:hover{
+      color: cyan;
+
+    }
+    .form .link{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      padding: 10px;
+      text-align: center;
+      color: rgb(218, 240, 196);
+    }
+    .form .sign {
+      position: relative;
+      font-family: Arial;
+      text-decoration: none;
+      color: rgb(17, 249, 4);
+      align-items: center;
+      left: 30%
+      
+    }
+    .form .sign a{
+      left: 20%;
+    }
+    .form .cho{
+      position: relative;
+      padding: 15px;
+      align-items: center;
+      left: 25%;
+      color: rgb(242, 242, 241);
+
+    }
+    .icons a{
+      text-decoration: none;
+      color: #fff;
+  }
+  .icons ion-icon{
+      color: #fff;
+      font-size: 30px;
+      padding-left: 14px;
+      padding-top: 20px;
+      transition: 0.3s ease;
+  }
+  .icons ion-icon:hover{
+      color: #ff7200;
+  }
+    
+    
+    
+        
+  
